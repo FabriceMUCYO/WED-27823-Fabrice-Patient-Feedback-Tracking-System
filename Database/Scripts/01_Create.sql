@@ -1,3 +1,5 @@
+-- I First Created the Table Space because it is the logical storage container that is used to store Database Objects so which is the one to store the tables created and Other Objects
+
 -- Creating Table Patient
 
 CREATE TABLE PATIENTS (
