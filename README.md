@@ -129,13 +129,34 @@ Finally:
 ## Relationships
 | Parent Table | Child Table | Foreign Key |	Relationship | Description                                        |
 |--------------|-------------|-------------|---------------|----------------------------------------------------|
-| PATIENTS	   | FEEDBACK	   | PATIENT_ID  |	1 → Many     | One patient can submit many feedback entries       |
-| DEPARTMENTS	 | FEEDBACK	   | DEPT_ID	   |  1 → Many	   | One department can receive many feedback entries   |
-| FEEDBACK	   | AUDIT_LOG	 | FEEDBACK_ID |	1 → Many	   | One feedback record can have many audit log entries|
-| HOLIDAYS	   |             |             | Independent   | Holiday table stands alone and has no FK relationships    |
+| PATIENTS	   | FEEDBACK	   | PATIENT_ID  |	1 to Many     | One patient can submit many feedback entries       |
+| DEPARTMENTS	 | FEEDBACK	   | DEPT_ID	   |  1 to Many	   | One department can receive many feedback entries   |
+| FEEDBACK	   | AUDIT_LOG	 | FEEDBACK_ID |	1 to Many	   | One feedback record can have many audit log entries|
+| HOLIDAYS	   |             |             |  Independent   | Holiday table stands alone and has no FK relationships    |
 
 ## PHASE 4:
 ## DATABASE CREATION
+
+### 1.Creating a Pluggable Database
+<img src="Screenshots/Database_objects/Creating Pluggable Database.png">
+
+### 2.Checking the Oracle Enterprise Manager
+<img src="Screenshots/OEM_Monitoring/OEM.png">
+
+### 3.Creating the Table Spaces
+Tablespaces are storage containers inside a database that control where data is physically stored on disk
+#### Before Creating Tablespces we will first switch the container from CDB$ROOT to our pluggable database
+<img src="Screenshots/Database_objects/Container switch to pdb.png">
+<img src="Screenshots/Database_objects/Create Tablespace Feedback_data.png">
+<img src="Screenshots/Database_objects/Creating Tablespace Feedback_idx.png">
+
+####  After creating the TableSpaces we grant priveledge to the User we created
+<img src="
+
+#### Create Connection of PDB in the SQL Developer
+
+<img src="Screenshots/Database_objects/Connecting my pdb to Sql developer.png">
+
 
 
 
