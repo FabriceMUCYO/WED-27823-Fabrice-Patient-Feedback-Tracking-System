@@ -79,7 +79,7 @@ Finally:
 ## PHASE 3:
 ## LOGICAL DATABASE DESIGN (ER DIAGRAM)
 
-<img src="
+<img src="Screenshots/Database_objects/ER_Diagram.png">
 
 # Data Dictionary
 
@@ -132,7 +132,13 @@ Finally:
 | PATIENTS	   | FEEDBACK	   | PATIENT_ID  |	1 → Many     | One patient can submit many feedback entries       |
 | DEPARTMENTS	 | FEEDBACK	   | DEPT_ID	   |  1 → Many	   | One department can receive many feedback entries   |
 | FEEDBACK	   | AUDIT_LOG	 | FEEDBACK_ID |	1 → Many	   | One feedback record can have many audit log entries|
-| HOLIDAYS	   |             |             | Independent   | Holiday table stands alone, no FK relationships    |
+| HOLIDAYS	   |             |             | Independent   | Holiday table stands alone and has no FK relationships    |
+
+## PHASE 4:
+## DATABASE CREATION
+
+
+
 
 
 
