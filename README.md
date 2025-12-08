@@ -151,6 +151,15 @@ Tablespaces are storage containers inside a database that control where data is 
 
 ## PHASE 5:
 ## CREATE/INSERT SCRIPTS AND DATA VALIDATION
+#### 01. [Create Queries](Database/Scripts/01_Create.sql)
+- <a href="Screenshots/Database_objects/Create Table Patient.png">Table Patient</a>
+- <a href="Screenshots/Database_objects/Creating Table Department.png">Table Department</a>
+- <a href="Screenshots/Database_objects/Creating Table Feedback.png">Table Feedback</a>
+- 
+
+#### 02. [Insert into it](Database/Scripts/02_Insert_data.sql)
+#### 
+
 
 
 
