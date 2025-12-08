@@ -13,11 +13,11 @@
 Hospitals use paper forms for patient feedback which get lost and provide no analytics and this digital system stores all feedback securely, enforces business rules automatically and provides actionable insights for service improvement and also this system will help to secure data like for the old ways some one who is not even registered as Patient could give a feedback without getting service and This system will also help the Hospital to receive Feedback from Registerd Patients who receive the service
 
 ### KEY OBJECTIVE
-1. ✅ Digitize patient feedback collection
-2. ✅ Implement business rules (no weekday/holiday changes)
-3. ✅ Create comprehensive audit trail
-4. ✅ Generate automated reports and analytics for every department
-5. ✅ Build production ready PL/SQL database solution
+1. Digitize patient feedback collection
+2. Implement business rules (no weekday/holiday changes)
+3. Create comprehensive audit trail
+4. Generate automated reports and analytics for every department
+5. Build production ready PL/SQL database solution
 
 ### LINKS TO DOCUMENTATION
 1. <a href="Documentation/data_dictionary.md">Data Dictionary</a>
@@ -155,10 +155,14 @@ Tablespaces are storage containers inside a database that control where data is 
 - <a href="Screenshots/Database_objects/Create Table Patient.png">Table Patient</a>
 - <a href="Screenshots/Database_objects/Creating Table Department.png">Table Department</a>
 - <a href="Screenshots/Database_objects/Creating Table Feedback.png">Table Feedback</a>
-- 
+- <a href="Screenshots/Database_objects/Creating Table Audit_log.png">Table Audit_logs</a>
+- <a href="Screenshots/Database_objects/Create Table Holidays.png">Table Holidays</a>
 
 #### 02. [Insert into it](Database/Scripts/02_Insert_data.sql)
-#### 
+- <a href="Screenshots/Database_objects/Insert into Patient.png">Inserts into Patient</a>
+- <a href="Screenshots/Database_objects/Insert in Department.png">Insert into Department</a>
+- <a href="Screenshots/Database_objects/Insert into Feedback.png">Insert into Feedback</a>
+- <a href="Screenshots/Database_objects/Insert into Holidays.png">Insert Into Holidays</a>
 
 
 
