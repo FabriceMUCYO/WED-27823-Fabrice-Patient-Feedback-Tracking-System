@@ -1,9 +1,10 @@
-# PATIENT-FEEDBACK-TRACKING-SYSTEM
+# PATIENT FEEDBACK TRACKING SYSTEM
 
 ### PROJECT TITLE : Patient Feedback Tracking System
 ### NAME : MUCYO Fabrice
 ### ID : 27823
 ### COURSE : Database Development with PL/SQL
+### INSTITUTION : Adventist University of Central Africa
 
 
 ----
@@ -28,7 +29,7 @@ Hospitals use paper forms for patient feedback which get lost and provide no ana
 ## PHASE 2:
 ## BUSINESS PROCESS MODELING (BPMN)
 
-<img src="Screenshots/Database_objects/Patient Feedback Tracking System BPMN.png">
+<img src="Screenshots/Database_objects/Patient Feedback Tracking System BPMN.png" width=800, height=auto>
 
 # Patient Feedback Tracking System BPMN
 
@@ -39,8 +40,8 @@ This BPMN diagram shows how a hospital handles patient feedback from start to fi
 
 ### **1. Start to Decision (Left Side)**
 The process begins when a patient gives feedback. First, the system checks the patient's ID to make sure it's valid then it asks: "Is this feedback about a specific treatment?"
-- **Yes → Goes to** "Receiver Medical Service"
-- **No → Goes to** "Process Feedback"
+- **Yes = Goes to** "Receiver Medical Service"
+- **No = Goes to** "Process Feedback"
 
 This decision point helps route feedback to the right place
 
@@ -48,8 +49,8 @@ This decision point helps route feedback to the right place
 - **Receiver Medical Service:** If feedback is about a treatment the medical team receives it
 - **Process Feedback:** General feedback is handled here
 - **Another Decision:** "Is there any other treatment to review?"
-  - **Yes →** Loops back to "Receiver Medical Service"
-  - **No →** Moves forward
+  - **Yes =** Loops back to "Receiver Medical Service"
+  - **No =** Moves forward
 
 This loop allows patients to give feedback on multiple treatments at once
 
@@ -65,21 +66,11 @@ Finally:
 - **Generate Feedback Report:** Makes official reports
 - **End:** Process Complete
 
-## Who Does What
-- **Patients** start the process
-- **Medical Staff** review treatment related feedback
-- **System or Admin** update, log, store and report
-
-## Why This System Works
-- It organizes feedback so nothing is missed
-- It connects patients directly to their care teams when needed
-- It saves everything securely
-- It creates useful reports to help the hospital improve
 
 ## PHASE 3:
 ## LOGICAL DATABASE DESIGN (ER DIAGRAM)
 
-<img src="Screenshots/Database_objects/ER_Diagram.png">
+<img src="Screenshots/Database_objects/ER_Diagram.png " width=800, height=auto>
 
 # Data Dictionary
 
@@ -138,25 +129,28 @@ Finally:
 ## DATABASE CREATION
 
 ### 1.Creating a Pluggable Database
-<img src="Screenshots/Database_objects/Creating Pluggable Database.png">
+<img src="Screenshots/Database_objects/Creating Pluggable Database.png " width=700, height=auto>
 
 ### 2.Checking the Oracle Enterprise Manager
-<img src="Screenshots/OEM_Monitoring/OEM.png">
+<img src="Screenshots/OEM_Monitoring/OEM.png" width=700, height=auto>
 
 ### 3.Creating the Table Spaces
 Tablespaces are storage containers inside a database that control where data is physically stored on disk
 #### Before Creating Tablespces we will first switch the container from CDB$ROOT to our pluggable database
-<img src="Screenshots/Database_objects/Container switch to pdb.png">
-<img src="Screenshots/Database_objects/Create Tablespace Feedback_data.png">
-<img src="Screenshots/Database_objects/Creating Tablespace Feedback_idx.png">
+<img src="Screenshots/Database_objects/Container switch to pdb.png" width=700, height=auto>
+<img src="Screenshots/Database_objects/Create Tablespace Feedback_data.png" width=700, height=auto>
+<img src="Screenshots/Database_objects/Creating Tablespace Feedback_idx.png" width=700, height=auto>
 
 ####  After creating the TableSpaces we grant priveledge to the User we created
-<img src="Screenshots/Database_objects/Grant priveledge.png">
+<img src="Screenshots/Database_objects/Grant priveledge.png" width=700, height=auto>
 
 #### Create Connection of PDB in the SQL Developer
 
-<img src="Screenshots/Database_objects/Connecting my pdb to Sql developer.png">
-<img src="Screenshots/Database_objects/SQL Dev.png">
+<img src="Screenshots/Database_objects/Connecting my pdb to Sql developer.png" width=700, height=auto>
+<img src="Screenshots/Database_objects/SQL Dev.png" width=700, height=auto>
+
+## PHASE 5:
+## CREATE/INSERT SCRIPTS AND DATA VALIDATION
 
 
 
