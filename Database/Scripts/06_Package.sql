@@ -1,0 +1,29 @@
+CREATE OR REPLACE PACKAGE FEEDBACK_MANAGEMENT AS
+
+    
+    PROCEDURE ADD_FEEDBACK(
+        p_patient_id IN NUMBER,
+        p_dept_id IN NUMBER,
+        p_rating IN NUMBER,
+        p_comments IN VARCHAR2
+    );
+
+    PROCEDURE UPDATE_FEEDBACK_STATUS(
+        p_feedback_id IN NUMBER,
+        p_new_status IN VARCHAR2
+    );
+
+    PROCEDURE GET_DEPT_STATS(p_dept_id IN NUMBER);
+
+    FUNCTION CALCULATE_AVG_RATING(p_dept_id IN NUMBER) RETURN NUMBER;
+
+    FUNCTION VALIDATE_PATIENT(p_patient_id IN NUMBER) RETURN VARCHAR2;
+
+    FUNCTION GET_RATING_CATEGORY(p_rating IN NUMBER) RETURN VARCHAR2;
+
+    TYPE feedback_ref_cursor IS REF CURSOR;
+
+    PROCEDURE PROCESS_ALL_FEEDBACK(p_cursor OUT feedback_ref_cursor);
+
+END FEEDBACK_MANAGEMENT;
+/
