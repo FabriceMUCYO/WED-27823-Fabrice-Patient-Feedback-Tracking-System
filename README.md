@@ -18,4 +18,5 @@ Hospitals use paper forms for patient feedback which get lost and provide no ana
 5. ✅ Build production ready PL/SQL database solution
 
 ## LINKS TO DOCUMENTATION
-1.<a>
+1. <a href="Documentation/data_dictionary.md">Data Dictionary</a>
+
