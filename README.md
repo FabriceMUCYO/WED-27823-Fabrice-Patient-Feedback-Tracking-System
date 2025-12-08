@@ -151,7 +151,7 @@ Tablespaces are storage containers inside a database that control where data is 
 <img src="Screenshots/Database_objects/Creating Tablespace Feedback_idx.png">
 
 ####  After creating the TableSpaces we grant priveledge to the User we created
-<img src="
+<img src="Screenshots/Database_objects/Grant priveledge.png">
 
 #### Create Connection of PDB in the SQL Developer
 
