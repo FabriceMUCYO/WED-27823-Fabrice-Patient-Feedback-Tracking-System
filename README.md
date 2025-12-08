@@ -26,9 +26,9 @@ Hospitals use paper forms for patient feedback which get lost and provide no ana
 5. <a href="Business Intelligence/kpi_definitions.md">KPI Definition</a>
 
 ## PHASE 2:
-## BUSINESS PROCESS MODELING
+## BUSINESS PROCESS MODELING (BPMN)
 
-<img src="
+<img src="Screenshots/Database_objects/Patient Feedback Tracking System BPMN.png">
 
 # Patient Feedback Tracking System BPMN
 
@@ -75,3 +75,8 @@ Finally:
 - It connects patients directly to their care teams when needed
 - It saves everything securely
 - It creates useful reports to help the hospital improve
+
+## PHASE 3:
+## LOGICAL DATABASE DESIGN (ER DIAGRAM)
+
+
