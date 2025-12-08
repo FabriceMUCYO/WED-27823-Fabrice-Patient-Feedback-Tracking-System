@@ -7,14 +7,12 @@
 | PATIENT_NAME | VARCHAR2(100) | NOT NULL | Patient's full name |
 | EMAIL | VARCHAR2(100) | UNIQUE | Contact email address |
 | PHONE | VARCHAR2(20) | | Contact phone number |
-| REGISTRATION_DATE | DATE | DEFAULT SYSDATE | Date of registration |
 
 ## DEPARTMENTS Table
 | Column | Type | Constraints | Purpose |
 |--------|------|-------------|---------|
 | DEPT_ID | NUMBER(5) | PK, NOT NULL | Department identifier |
 | DEPT_NAME | VARCHAR2(100) | NOT NULL, UNIQUE | Department name |
-| LOCATION | VARCHAR2(100) | | Physical location |
 
 ## FEEDBACK Table
 | Column | Type | Constraints | Purpose |
