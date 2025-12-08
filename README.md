@@ -156,6 +156,7 @@ Tablespaces are storage containers inside a database that control where data is 
 #### Create Connection of PDB in the SQL Developer
 
 <img src="Screenshots/Database_objects/Connecting my pdb to Sql developer.png">
+<img src="Screenshots/Database_objects/SQL Dev.png">
 
 
 
