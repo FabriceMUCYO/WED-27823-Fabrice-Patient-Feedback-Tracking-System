@@ -171,6 +171,7 @@ Tablespaces are storage containers inside a database that control where data is 
 - <a href="Database/Scripts/05_Trigger_Creation.sql">Trigger Creation</a>
 
 ## BI DASHBOARD
+This dashboard tracks patient feedback to understand how satisfied patients are with our services. It analyzes comments, ratings, and identifies what we're doing well and what needs improvement.
 <img src="https://github.com/FabriceMUCYO/WED-27823-Fabrice-Patient-Feedback-Tracking-System/blob/main/Business%20Intelligence/BI%20Dashboard.png">
 
 
