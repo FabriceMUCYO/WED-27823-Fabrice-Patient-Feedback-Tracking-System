@@ -170,6 +170,9 @@ Tablespaces are storage containers inside a database that control where data is 
 - <a href="Database/Scripts/04_Function_Creation.sql">Function Creation</a>
 - <a href="Database/Scripts/05_Trigger_Creation.sql">Trigger Creation</a>
 
+## BI DASHBOARD
+<img src="https://github.com/FabriceMUCYO/WED-27823-Fabrice-Patient-Feedback-Tracking-System/blob/main/Business%20Intelligence/BI%20Dashboard.png">
+
 
 
 
