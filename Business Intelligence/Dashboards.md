@@ -2,7 +2,7 @@
 # Patient Feedback Dashboard
 This dashboard tracks patient feedback to understand how satisfied patients are with our services. It analyzes comments, ratings, and identifies what we're doing well and what needs improvement.
 
-<img src="Business Intelligence/BI Dashboard.png">
+<img src="https://github.com/FabriceMUCYO/WED-27823-Fabrice-Patient-Feedback-Tracking-System/blob/main/Business%20Intelligence/BI%20Dashboard.png" width=1000, height=auto>
 
 ## The Three Main Charts
 
